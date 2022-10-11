@@ -1,0 +1,24 @@
+.header-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding: 20px;
+    color: rgba(237, 115, 8, 0.762);
+    font-family: "Silkscreen", cursive;
+}
+
+.header-title:hover{
+    color: #e4c80f;
+}
+
+h1 {
+    font-size: 60px;
+    color: #ddbd30b6;
+  }
+
+::placeholder {
+    padding: 15px;
+    color: #da6b40;
+    font-size: 15px;
+}

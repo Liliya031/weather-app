@@ -1,0 +1,14 @@
+.forecast-temperature {
+    display: flex;
+    justify-content: center;
+  }
+
+  .forecast-icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .forecast-title {
+    font-size: 20px;
+    text-align: center;
+  }

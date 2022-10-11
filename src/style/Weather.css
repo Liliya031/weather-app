@@ -1,0 +1,19 @@
+.Weather-form{
+    font-size: 10px;
+    list-style: none;
+}
+.Weather {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+  
+  .Weather-information {
+    text-align: left;
+    display: flex;
+  }
+  .Weather-icon {
+    width: 60px;
+    height: 60px;
+  }
+  
