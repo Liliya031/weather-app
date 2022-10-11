@@ -1,19 +1,41 @@
-.Weather-form{
-    font-size: 10px;
+/* .Weather-form{
+    font-size: 1px;
     list-style: none;
-}
+    
+} */
 .Weather {
     display: flex;
     justify-content: space-between;
-    padding: 5px 0;
+    padding: 20px 0;
+    color: #cbdafffa;;
+    font-family: 'Karla', sans-serif;
   }
   
   .Weather-information {
     text-align: left;
     display: flex;
+    align-items: center;
   }
-  .Weather-icon {
-    width: 60px;
-    height: 60px;
+  .Weather-icon{
+    width: 100px;
+    height: 100px;
   }
+  .Weather-tem{
+    color: #cbdafffa;
+    font-size: 40px;
+    font-family: 'Karla', sans-serif;
+  }
+  .other-info-city{
+    color: #cbdafffa;
+    font-size: 40px;
+    font-family: 'Karla', sans-serif;
+  }
+  .Weather-wind{
+    font-size: 20px;
+  }
+  .Weather-humidity{
+ font-size: 20px;
+
+  }
+
   

@@ -4,21 +4,21 @@
     align-items: center;
     font-size: 40px;
     padding: 20px;
-    color: rgba(237, 115, 8, 0.762);
-    font-family: "Silkscreen", cursive;
+    color: rgba(188, 181, 231, 0.606);
+    font-family: 'Karla', sans-serif;
 }
 
 .header-title:hover{
-    color: #e4c80f;
+    color: #cbdafffa;
 }
 
 h1 {
     font-size: 60px;
-    color: #ddbd30b6;
-  }
+    color: #cbdafffa;
+}
 
 ::placeholder {
     padding: 15px;
-    color: #da6b40;
+    color: rgba(188, 181, 231, 0.606);
     font-size: 15px;
 }
