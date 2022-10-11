@@ -4,15 +4,12 @@ import "../style/Forecast.css";
 
 export default function Forecast({weatherInfo, date}) {
   return (
-    <div>
+    <div className="forecast">
       <div className="forecast-title"> {[date[0], date[1], date[2]]} </div>
-      <image
+      <img
         className="forecast-icon"
-        src={
-            "https://openweathermap.org/img/wn/" +
-            weatherInfo.weather[0].icon +
-            ".png"
-          }
+          src={`http://openweathermap.org/img/w/${weatherInfo.weather[0].icon}.png`}
+          
         alt={weatherInfo.weather[0].main}
       />
       <div className="forecast-temperature">
@@ -24,6 +21,7 @@ export default function Forecast({weatherInfo, date}) {
         {parseFloat(weatherInfo.temp.min).toFixed(1)}&deg;C
          
         </span>
+       
         <div className="bottom">
           
 
@@ -32,18 +30,19 @@ export default function Forecast({weatherInfo, date}) {
          
               <p className="big-text"> {weatherInfo.humidity}%</p>
          
-            <p>Вологість</p>
+            <p></p>
           </div>
           <div className="wind">
           
-              <p className="big-text">{weatherInfo.wind_speed.toFixed()} MPH</p>
+              <p className="big-text">{weatherInfo.wind_speed.toFixed()} km/h</p>
         
-            <p>Швидкість вітру</p>
+            <p></p>
           </div>
         </div>
-
+        
+        </div>
       </div>
-    </div>
+  
 
   
         

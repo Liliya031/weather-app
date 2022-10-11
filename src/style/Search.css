@@ -7,9 +7,9 @@
     padding: 10px;
     font-size: 15px;
     border-radius: 25px;
-    border: 1px solid rgba(237, 110, 19, 0.8);
+    border: 1px solid rgba(102, 77, 166, 0.8);
     background: rgba(255, 255, 255, 0.1);
-    color: #c4a48e;   
+    color: rgba(188, 181, 231, 0.606);
 }
 
 .Search-button{
@@ -17,11 +17,12 @@
     margin: 10px;
     font-size: 15px;
     border-radius: 25px;
-    border: 1px solid rgba(237, 110, 19, 0.8);
+    border: 1px solid rgba(102, 77, 166, 0.8);
     background: rgba(255, 255, 255, 0.1);
-    color: #c4a48e;   
+    color: rgba(188, 181, 231, 0.606); 
 }
 
 .Search-button:hover{
-    color: #e27419 ;
+    color: rgba(188, 181, 231, 0.606);
 }
+
